@@ -1,0 +1,133 @@
+:root{
+    color: #050505;
+    --darker-bg: #050505;
+    --accent: #2ECC71;
+    color: #09ff67;
+    color: white;
+}
+
+body{
+    background-color: #050505;
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+   .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0505058a;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 1px solid (255,255,255,0.1);
+}
+
+.logo{
+    font-size: 10pt;
+    font-weight: 700;
+    color: var(--accent);
+    text-decoration: none;
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+ .hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 12% 5%;
+    background: radial-gradient(circle at 75% 30%, var(--accent-glow) 0%, trasparent 30%);
+ }
+
+  .hero-content{
+    flex: 1;
+    padding-right: 5rem;
+ }
+
+  @keyframes float{
+    0%, 100%{transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+ }
+
+  .hero h1{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(45deg, var(--accent)30%, #fff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translate(-22cm,-15cm)}
+
+ .hero p{
+    font-size: 1.2 rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    max-width: 600px;
+ }
+
+  .logo{
+    font-size: 30pt;
+    padding-left: 2rem;
+    transform: translate(-1cm,-18cm);
+       font-size: 4rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(45deg, var(--accent)30%, #dcf1e6 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+ }
+ #statement{
+     font-size: 10pt;
+    padding-left: 2rem;
+    transform: translate(-21cm,-18.2cm);
+    font-size: 20pt;
+    margin-bottom: 1.5rem;
+    background: white;
+    -webkit-background-clip: text;
+    font-family: sans-serif;
+ }
+
+.social-links a:hover{
+    color: #2ECC71;
+    transform: translateY(-3px);
+
+ }
+ .social-links{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1cm;
+   color: blanchedalmond;
+   font-size: large;
+    
+    
+ }
+ #footer{
+    background: var(--darker-bg);
+    padding: 3rem 5%;
+    text-align: center;
+    border-top:  1px solid rgba(255,255,255,0.1);
+ }
+
+
+#portfolio{
+    color: #09ff67;
+    font-size: 60pt;
+    transform: translate(-10cm,-14cm);
+ }
+
+ #copy{
+    transform: translate(-22cm,4cm);
+ }
+
+ #links{
+    transform: translate(-22cm,4cm);
+ }
+
+ #projects{
+    transform: translate(-22cm,4cm);
+ }
